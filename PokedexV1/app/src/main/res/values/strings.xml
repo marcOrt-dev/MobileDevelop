@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="height_format">Altura: %1$.1fm</string>
+    <string name="weight_format">Peso: %1$.1f kg</string>
+    <string name="type_format">Tipo: %1$s</string>
+    <string name="exp_base_format">Exp. Base: %1$d</string>
+    <string name="pokedex">Pokédex</string>
+    <string name="toca_la_pantalla_para_continuar">Pulsa para Iniciar</string>
+    <string name="moves_format">Ataques: %s</string>
+    <string name="weaknesses_format">Debilidades: %s</string>
+    <string name="region_format">Región: %s</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Título de la categoría -->
+        <TextView
+            android:id="@+id/typeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <!-- Lista de Pokémon dentro de la categoría -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewPokemons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

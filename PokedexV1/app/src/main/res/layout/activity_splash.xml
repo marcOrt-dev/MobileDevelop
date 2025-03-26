@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:adroid="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dragonite"
+    android:clickable="true">
+
+
+    <!-- Texto de Nombre de la App -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pokemon_hollow"
+        android:shadowColor="@color/poke_black"
+        android:shadowDx="5"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="@string/pokedex"
+        android:textColor="@color/poke_yellow"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Texto que indica tocar la pantalla -->
+<TextView
+android:id="@+id/tapToContinueText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:fontFamily="@font/fast99"
+    android:textColor="@color/poke_yellow"
+    android:shadowColor="@color/poke_black"
+    android:shadowDx="7"
+    android:shadowDy="3"
+    android:shadowRadius="3"
+    android:text="@string/toca_la_pantalla_para_continuar"
+    android:textSize="30dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginBottom="140dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
